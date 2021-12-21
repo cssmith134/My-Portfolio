@@ -107,20 +107,28 @@ img {
     background-color: black;
     color: #ffffff;
     size: 55px;
-    text-align: center;
 }
 
 .my-work h2 {
     margin-bottom: 70px;
+    text-align: center;
 }
 
 .row {
     display: flex;
+    text-align: center;
+    
 }
 
 .column {
     flex: 33.33%;
     padding: 5px;
+}
+
+.img-big {
+    height: 300px;
+    width: 350px;
+
 }
 
 
@@ -134,6 +142,17 @@ img {
     background-color: red;
     display: inline-block;
     margin: 50px;    
+}
+
+@media screen and (max-width: 768px) {
+    .row {
+        padding: 30px 15px;
+        flex: 0 100%;
+        flex-direction: column;
+    }
+    .my-work {
+        height: 1000px;
+    }
 }
 
 
