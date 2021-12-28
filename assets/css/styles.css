@@ -123,6 +123,7 @@ img {
 .column {
     flex: 33.33%;
     padding: 5px;
+    
 }
 
 .img-big {
@@ -153,6 +154,36 @@ img {
     .my-work {
         height: 1000px;
     }
+
+    header {
+        height: 200px;
+        text-align: center;
+    }
+
+    header h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .img-big {
+        height: 200px;
+        width: 200px;
+    }
 }
 
+@media screen and (max-width: 575px) {
+    .row {
+        padding: 30px 15px;
+        flex: 0 100;
+        flex-direction: column;
+    }
+
+    .about-me{
+        height: 500px;
+    }
+
+    
+    
+    
+}
 
