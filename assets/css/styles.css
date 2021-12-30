@@ -103,6 +103,7 @@ img {
     background-color: black;
     color: #ffffff;
     size: 55px;
+    
 }
 
 .my-work h2 {
@@ -125,6 +126,7 @@ img {
 .img-big {
     height: 300px;
     width: 350px;
+    
 
 }
 
@@ -185,14 +187,34 @@ img {
     }
 
     .about-me{
-        height: 500px;
+        height: 600px;
     }
+
+    .img-big {
+        height: 250px;
+        width: 250px;
+    }
+
     
+    
+}
+
+@media screen and (max-width: 280px) {
+    .about-me {
+        height: 800px;
+    }
+    .about-me h2 {
+        margin-right: 20px;
+    }
+
+    .contact-me h2 {
+        margin-right: 50px;
+    }
 }
 
 /* CONTACT ME SECTION */
 .contact-me {
-margin: 20px 20px 20px 20px;
+margin: 20px;
 padding: 50px;
 height: 350px;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
